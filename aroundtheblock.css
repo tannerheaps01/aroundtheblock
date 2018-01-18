@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: green;
+}
+.header{
+    display: flex;
+    background-color: #646970;
+}
+.headerbutton {
+            flex: 1;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: 5vh;        
+            background-color: #646970;
+            border: solid 1px #646970;
+            font-size: 11px;
+            text-decoration: none;
+            color: #F7F7F7;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            font-family: 'Josefin Sans', sans-serif;
+
+        
+        }
+
+        .headerbutton:hover {
+            background-color: #8c939e;
+            color: black;
+            text-decoration: none;
+
+        }
+
+        .road{
+            background-color: black;
+            width:50vw;
+            height: 80vh;
+            position: absolute;
+            top: 10vh;
+            left: 23vw;
+            z-index: 1;
+
+        }
+        .block{
+            background-color: green;
+            width: 25vw;
+            height: 40vh;
+            position: absolute;
+            top: 28vh;
+            left: 35vw;
+            z-index: 2;
+        }
+        .car{
+            width: 80px;
+            position: absolute;
+            top: 160px;
+            left: 800px;
+            z-index: 3
+
+        }
